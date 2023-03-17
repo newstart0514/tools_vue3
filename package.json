@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^18.15.3",
+    "element-plus": "^2.3.0",
+    "gsap": "^3.11.4",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6",
     "vuex": "^4.1.0"
@@ -16,6 +19,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "typescript": "^4.9.3",
+    "unplugin-auto-import": "^0.15.1",
+    "unplugin-vue-components": "^0.24.1",
     "vite": "^4.0.0",
     "vue-tsc": "^1.0.11"
   }
