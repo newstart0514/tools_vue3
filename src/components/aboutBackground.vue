@@ -3,9 +3,8 @@
 </template>
 
 <script>
-
 export default {
-  name: 'homeBackground',
+  name: "aboutBackground"
 }
 </script>
 
@@ -17,6 +16,6 @@ export default {
   width: 100%;
   height: 100vh;
   z-index: -1;
-  background-color: #fee440;
+  background-color: blueviolet;
 }
 </style>

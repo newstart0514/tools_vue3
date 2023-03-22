@@ -10,10 +10,11 @@
     <el-menu-item index="/">
       <el-image style="width: 40px;height: 40px;" src="https://s1.ax1x.com/2023/03/17/ppGiZwV.png" fit="cover" />
       &nbsp;&nbsp;
-      <el-text size="large" style="font-weight:bolder;color: white">幽离工具库</el-text>
+      <el-text size="large" style="font-weight:bolder;color: white">幽离测试平台</el-text>
     </el-menu-item>
     <div class="flex-grow" />
     <el-menu-item index="/home">首页</el-menu-item>
+    <el-menu-item index="/api">API测试</el-menu-item>
     <el-menu-item index="/about">关于我们</el-menu-item>
   </el-menu>
 </template>
@@ -28,6 +29,9 @@ const handleSelect = (key: string, keyPath: string[]) => {
 </script>
 
 <style scoped>
+.el-menu-demo {
+  z-index: 2;
+}
 .flex-grow {
   flex-grow: 1;
 }
